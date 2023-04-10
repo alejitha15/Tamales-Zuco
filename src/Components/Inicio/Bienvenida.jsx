@@ -11,7 +11,7 @@ const Bienvenida = () => {
       </div>
 
       {/*Aca se llaman los iconos*/}
-      <div className="flex flex-row text-3xl text-green-900 gap-9 justify-start pl-20 ml-20 mt-80">
+      <div className="flex flex-row text-3xl text-green-900 gap-3 mt-16 ml-3 justify-start md:pl-16 md:ml-20 md:mt-80 md:gap-9">
         <a href="#" ><FaWhatsapp /></a>
         <a href="#" ><FaFacebook /></a>
         <a href="#" ><FaInstagram/></a>
