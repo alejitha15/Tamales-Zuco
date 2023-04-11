@@ -3,45 +3,44 @@ import ItemsContainer from "./ItemsContainer";
 
 const Footer = () => {
   return (
-    <div className="bg-verde font-Texto">
-      <section>
+    <div className="bg-green-700 font-Texto">
+      <section className="border-b-2 border-green-900">
         <footer className="text-2xl">
-          <p>Hola hermosa</p>
+          <div className="border-b-2 border-green-800">
+            <p className=" font-Titulo text-center text-white p-1">
+              {" "}
+              ¡Conocenos mas!...
+            </p>
+          </div>
 
           <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#ffffff19] py-7">
             <h1
               className="lg:text-4x1 text-3x1 md:mb-0 mb-6 lg:leading-normal font-semibold
        md:w-2/5"
             >
-              <samp className="text-teal-400"></samp>Acerca De Nosotros{" "}
+              <samp className="text-green-100"></samp>Acerca De Nosotros{" "}
             </h1>
-            <div>
-              <input
-                type="text"
-                placeholder="Enter your "
-                className="text-gray-800
-          sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0  mb-4 py-2.5 rounded px-2 focus:outline-none"
-              />
-              <button
-                className="bg-teal-400 hover:bg-teal-500 duration -300 px-5 py-2.5 font-[poppis
-              rounded- md text-white md:w-auto w-full"
-              >
-                Consultar
-              </button>
+            <section className=" grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-9 font-Texto">
+              <div>
+                <p className=" font-Titulo">Saludanos en:</p>
+                <p className=" font-Texto text-xl">Carrera 3a sur #6-84</p>
+                <p className=" font-Texto text-xl">Juan XXIII</p>
+                <p className=" font-Texto text-xl">Facatativa - Cundinamarca</p>
+              </div>
               <div>
                 <ul>
-                  <li>Saludanos</li>
-                  <ul>calle 7# 3-119 sur</ul>
-                  <li>Horarios</li>
+                  <li className=" font-Titulo">Horarios</li>
                   <ul>Viernes.......4:00 PM-9:00 PM</ul>
-                  <ul>Sabados.......7:00 AM-9:00 PM</ul>
-                  <ul>Domingos......7:00 AM-11:00 AM</ul>
-
-                  <li>Contactanos</li>
-                  <ul>573132297049</ul>
+                  <ul>Sabados.......6:00 AM-9:00 PM</ul>
+                  <ul>Domingos......6:00 AM-9:00 AM</ul>
                 </ul>
               </div>
-            </div>
+              <div>
+                <p className=" font-Titulo">Contactanos</p>
+                <p>+57 314 797 52 36</p>
+                <p>+57 321 307 92 54</p>
+              </div>
+            </section>
           </div>
           <ItemsContainer />
         </footer>
