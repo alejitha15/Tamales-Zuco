@@ -6,6 +6,7 @@
   height: 60px;
   display: flex;
   justify-content: space-between;
+  flex-direction: row-reverse;
   align-items: center;
   background: #21b972a5;
   border-bottom: solid #21b972;

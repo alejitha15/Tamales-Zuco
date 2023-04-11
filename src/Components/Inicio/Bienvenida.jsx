@@ -1,7 +1,12 @@
 import React from "react";
+//Importacion de imagenes
 import Fondo from "../../assets/Fondo.png";
+import Domicilio from "../../assets/DomiciliosZuco.png";
 //Importacion de iconos
 import { FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa";
+import { BiDownArrowAlt } from "react-icons/bi"
+//Link de react-router-dom
+import { Link } from "react-router-dom";
 
 const Bienvenida = () => {
   return (
@@ -15,6 +20,26 @@ const Bienvenida = () => {
         <a href="#" ><FaWhatsapp /></a>
         <a href="#" ><FaFacebook /></a>
         <a href="#" ><FaInstagram/></a>
+      </div>
+      <br/>
+      <div className="flex justify-center items-center flex-col text-center lg:mt-40">
+        <h3 className=" font-Titulo text-2xl lg:text-5xl pt-7  md:text-4xl text-green-900 font-semibold">Bienvenidos a Tamales Zuco</h3>
+        <p className=" font-Texto text-xl">Conoce nuestro sitio web</p>
+        <p className="font-Texto text-lg">conoce nuestro servicio y productos </p>
+        <br/>
+        <BiDownArrowAlt  className="text-3xl text-green-900 lg:text-4xl animate-bounce"/>
+      </div>
+      <div className="flex flex-col md:justify-end md:flex-row justify-center items-center">
+        <div>
+          <h3 className=" font-Titulo text-center text-3xl">Ven y visitanos</h3>
+          <p className=" font-Texto text-2xl"> dirreccion</p>
+          <br/>
+          <h4 className=" font-Titulo text-verde hover:border-b-2 hover:border-verde  items-center">Tenemos servicio de Domicilios</h4>
+          <br/>
+          <button className="text-center font-Titulo p-2 px-3 bg-Amarillo border-1 border-Azul rounded-xl">
+            <Link to="/Productos">Ver Productos </Link></button>
+        </div>
+        <img src={Domicilio} alt="Domicilios" />
       </div>
     </div>
   )
