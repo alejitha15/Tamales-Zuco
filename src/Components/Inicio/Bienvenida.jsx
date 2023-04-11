@@ -6,12 +6,13 @@ import { FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa";
 const Bienvenida = () => {
   return (
     <div className="">
-      <div className="h-16">
+      <div className=" h-24">
         <img src={Fondo} alt="bienvenida" />
       </div>
 
       {/*Aca se llaman los iconos*/}
-      <div className="flex flex-row text-3xl text-green-900 gap-3 mt-16 ml-3 justify-start md:pl-16 md:ml-20 md:mt-80 md:gap-9">
+      <div className="flex flex-row text-3xl text-green-900 gap-3 mt-16 ml-3 justify-start md:pl-16 md:ml-20 md:mt-80 md:gap-
+      9">
         <a href="#" ><FaWhatsapp /></a>
         <a href="#" ><FaFacebook /></a>
         <a href="#" ><FaInstagram/></a>
