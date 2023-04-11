@@ -22,14 +22,14 @@ const Bienvenida = () => {
         <a href="#" ><FaInstagram/></a>
       </div>
       <br/>
-      <div className="flex justify-center items-center flex-col text-center lg:mt-40">
+      <div className="flex justify-center items-center flex-col text-center mt-4 pt-3 lg:mt-36">
         <h3 className=" font-Titulo text-2xl lg:text-5xl pt-7  md:text-4xl text-green-900 font-semibold">Bienvenidos a Tamales Zuco</h3>
         <p className=" font-Texto text-xl">Conoce nuestro sitio web</p>
         <p className="font-Texto text-lg">conoce nuestro servicio y productos </p>
         <br/>
         <BiDownArrowAlt  className="text-3xl text-green-900 lg:text-4xl animate-bounce"/>
       </div>
-      <div className="flex flex-col md:justify-end md:flex-row justify-center items-center">
+      <div className="flex flex-col md:flex-row justify-center items-center">
         <div>
           <h3 className=" font-Titulo text-center text-3xl">Ven y visitanos</h3>
           <p className=" font-Texto text-2xl"> dirreccion</p>
