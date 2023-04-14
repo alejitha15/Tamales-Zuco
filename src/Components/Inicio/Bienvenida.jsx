@@ -39,7 +39,9 @@ const Bienvenida = () => {
           <button className="text-center font-Titulo p-2 px-3 bg-Amarillo border-1 border-Azul rounded-xl">
             <Link to="/Productos">Ver Productos </Link></button>
         </div>
+        <div>
         <img src={Domicilio} alt="Domicilios" />
+        </div>
       </div>
     </div>
   )
