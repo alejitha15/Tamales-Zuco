@@ -22,7 +22,7 @@ const Bienvenida = () => {
         <a href="#" className="p-3 bg-white rounded-full hover:scale-110 border-2 border-green-800"><FaInstagram/></a>
       </div>
       <br/>
-      <div className="flex justify-center items-center flex-col text-center lg:mt-40">
+      <div className="flex justify-center items-center flex-col text-center mt-4 pt-3 lg:mt-36">
         <h3 className=" font-Titulo text-2xl lg:text-5xl pt-7  md:text-4xl text-green-900 font-semibold">Bienvenidos a Tamales Zuco</h3>
         <p className=" font-Texto text-xl">Conoce nuestro sitio web</p>
         <p className="font-Texto text-lg">conoce nuestro servicio y productos </p>
@@ -33,7 +33,6 @@ const Bienvenida = () => {
         <div>
           <FaMapMarkerAlt className=" text-transparent text-center text-5xl md:text-red-500 animate-bounce"/>
         </div>
-        <div>
           <h3 className=" font-Titulo text-center text-3xl">Ven y visitanos</h3>
           <hr className=" border-2 border-Amarillo mt-2"/>
           <p className=" font-Texto text-2xl">Carrera 3a sur #6-84</p>

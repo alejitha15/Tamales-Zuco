@@ -6,7 +6,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
   return (
-        <div className="Navbar px-5">
+        <div className="Navbar px-5 md:fixed md:w-full">
       <img src='/LogoZuco.png' width={130} className='mt-8 z-40' />
       <div className={`nav-items ${isOpen && "open"}`}>
         <Link to="/" className=' font-semibold font-Texto'>Inicio</Link>
