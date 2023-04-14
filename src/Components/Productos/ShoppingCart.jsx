@@ -20,7 +20,7 @@ const ShoppingCart = () => {
 
     //Funcion para eliminar del carro
     const delFromCart = (id, all = false) => {
-        console.log(id, all);
+        // console.log(id, all);
         if(all) {
             dispatch({type: TYPES.REMOVE_ALL_FROM_CART, payload:id})
         } else{
