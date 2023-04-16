@@ -1,5 +1,5 @@
 import React from "react";
-import Fondo2 from "../../assets/Fondo2.jpg"
+import FondoTwo from "../../assets/Fondo2.jpg"
 // import {useForm} from "react-hook-form"
 
 // const {register, handleSubmit}= useForm();
@@ -11,7 +11,7 @@ const Formulario = () => {
   return (
     <div>
       <div className="h-16"> 
-      <img src={Fondo2} alt="" width={10050} className=""/>
+      <img src={FondoTwo} alt="" width={10050} className=""/>
       </div>
       <h2 className="flex justify-center font-Titulo text-3xl">Formulario</h2>
       <br/>
