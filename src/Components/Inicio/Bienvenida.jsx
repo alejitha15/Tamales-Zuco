@@ -10,8 +10,8 @@ import { Link } from "react-router-dom";
 
 const Bienvenida = () => {
   return (
-    <div className="">
-      <div className="h-16">
+    <div>
+      <div className=" h-24">
         <img src={Fondo} alt="bienvenida" />
       </div>
 

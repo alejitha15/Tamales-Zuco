@@ -2,6 +2,7 @@ import React from "react";
 import ItemsContainer from "./ItemsContainer";
 import { IoLogoWhatsapp } from "react-icons/io"
 import {RiFacebookCircleFill, RiInstagramFill} from "react-icons/ri"
+import Logo from "../../../public/LogoZuco.png"
 
 const Footer = () => {
   return (
@@ -25,7 +26,7 @@ const Footer = () => {
               <a href="https://wa.link/o559e6" target="_blank" className=" text-slate-800 text-4xl rounded-full" ><RiInstagramFill className="hover:text-amber-200 text-center"/></a>
             </div>
             </h1>
-            <section className=" grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-9 font-Texto">
+            <section className=" grid grid-cols-1 md:grid-cols-3 justify-center gap-9 font-Texto">
               <div>
                 <p className=" font-Titulo">Saludanos en:</p>
                 <p className=" font-Texto text-lg">Carrera 3a sur #6-84</p>
@@ -34,16 +35,16 @@ const Footer = () => {
               </div>
               <div>
                 <ul>
-                  <li className=" font-Titulo">Horarios</li>
-                  <ul className=" font-Texto text-lg">Viernes.......4:00 PM-9:00 PM</ul>
-                  <ul className=" font-Texto text-lg">Sabados.......6:00 AM-9:00 PM</ul>
-                  <ul className=" font-Texto text-lg">Domingos......6:00 AM-9:00 AM</ul>
+                  <li className=" font-Titulo text-center">Horarios</li>
+                  <ul className="text-lg font-Texto text-center">Viernes.......4:00 PM-9:00 PM</ul>
+                  <ul className="text-lg font-Texto text-center">Sabados.......6:00 AM-9:00 PM</ul>
+                  <ul className="text-lg font-Texto text-center">Domingos......6:00 AM-9:00 AM</ul>
                 </ul>
               </div>
               <div>
                 <p className=" font-Titulo">Contactanos</p>
-                <p className=" font-Texto text-lg lg:text-2xl">+57 314 797 52 36</p>
-                <p className=" font-Texto text-lg lg:text-2xl">+57 321 307 92 54</p>
+                <p className=" font-Texto text-lg">+57 314 797 52 36</p>
+                <p className=" font-Texto text-lg">+57 321 307 92 54</p>
               </div>
             </section>
           </div>
