@@ -7,7 +7,7 @@ const Productos = () => {
   return (
     <div>
       <Navbar/>
-      <ShoppingCart/>
+      <ShoppingCart />
       <Footer />
     </div>
   )

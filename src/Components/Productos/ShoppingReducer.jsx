@@ -11,31 +11,31 @@ export const shoppingInitialState = {
         {
             id: 2,
             name: "Tamal Tolimence Especial",
-            price: 5000,
+            price: 6000,
             Image: "https://github.com/alejitha15/Tamales-Zuco/blob/main/src/assets/Especiales.png?raw=true",
         },
         {
             id: 3,
             name: "Combo Tamal sencillo + Chocolate y Pan",
-            price: 5000,
+            price: 7500,
             Image: "https://github.com/alejitha15/Tamales-Zuco/blob/main/src/assets/ComboUno.png?raw=true"
         },
         {
             id: 4,
             name: "Combo Tamal Especial + Chocolate y Pan",
-            price: 5000,
+            price: 8500,
             Image: "https://github.com/alejitha15/Tamales-Zuco/blob/main/src/assets/ComboUno.png?raw=true"
         },
         {
             id: 5,
             name: "Combo Tamal sencillo + Pan Gaseosa o Jugo",
-            price: 5000,
+            price: 7500,
             Image: "https://github.com/alejitha15/Tamales-Zuco/blob/main/src/assets/ComboUno.png?raw=true"
         },
         {
             id: 6,
             name: "Combo Tamal Especial + Pan Gaseosa o Jugo",
-            price: 5000,
+            price: 8500,
             Image: "https://github.com/alejitha15/Tamales-Zuco/blob/main/src/assets/ComboUno.png?raw=true"
         },
     ],

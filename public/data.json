@@ -1,0 +1,34 @@
+// 
+
+[
+    {
+        "id": 1,
+        "name": "Tamal Tolimence Sencillo",
+        "price": 5000,
+        "img": "https://github.com/alejitha15/Tamales-Zuco/blob/main/public/msg1953880124-2303.png?raw=true"
+    },
+    {
+        "id": 2,
+        "name": "Tamal Tolimence Especial",
+        "price": 6000,
+        "img": "https://github.com/alejitha15/Tamales-Zuco/blob/main/src/assets/TamalEspecial.png"
+    },
+    {
+        "id": 3,
+        "name": "Combo Tamal sencillo + Pan y Chocolate",
+        "price": 7500,
+        "img": "https://github.com/alejitha15/Tamales-Zuco/blob/main/public/photo1680974901.png?raw=true"
+    },
+    {
+        "id": 4,
+        "name": "Combo Tamal Especial + Pan y Chocolate",
+        "price": 8500,
+        "img": "https://github.com/alejitha15/Tamales-Zuco/blob/main/public/photo1680974901.png?raw=true"
+    },
+    {
+        "id": 5,
+        "name": "Combo Tamal Especial + Pan y gaseosa/Jugo 250ml",
+        "price": 9500,
+        "img": "https://github.com/alejitha15/Tamales-Zuco/blob/main/src/assets/TamalGaseosa.png"
+    }
+]
