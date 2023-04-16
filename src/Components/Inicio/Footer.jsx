@@ -1,23 +1,30 @@
 import React from "react";
 import ItemsContainer from "./ItemsContainer";
+import { IoLogoWhatsapp } from "react-icons/io"
+import {RiFacebookCircleFill, RiInstagramFill} from "react-icons/ri"
 import Logo from "../../../public/LogoZuco.png"
 
 const Footer = () => {
   return (
-    <div className="bg-green-700 font-Texto">
+    <div className="bg-green-700 font-Texto z-10">
       <section className="border-b-2 border-green-900">
-        <footer className="text-2xl">
-          <div className="border-b-2 border-green-400">
+        <footer className="text-lg md:text-2xl text-center">
+          <div className="border-b-2 border-green-800">
             <p className=" font-Titulo text-center text-white p-1">
               {" "}
               ¡Conocenos mas!...
             </p>
           </div>
 
-          <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#ffffff19] py-7">
+          <div className=" md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#ffffff19] py-7">
             <h1
               className="lg:text-4x1 text-3x1 md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5">
               <samp className="text-green-100"></samp>Acerca De Nosotros{" "}
+              <div className="flex flex-row gap-6 text-center justify-center">
+              <a href="https://wa.link/o559e6" target="_blank" className=" text-slate-800 text-4xl rounded-full" ><IoLogoWhatsapp className="hover:text-amber-200 text-center"/></a>
+              <a href="https://wa.link/o559e6" target="_blank" className=" text-slate-800 text-4xl rounded-full" ><RiFacebookCircleFill className="hover:text-amber-200 text-center"/></a>
+              <a href="https://wa.link/o559e6" target="_blank" className=" text-slate-800 text-4xl rounded-full" ><RiInstagramFill className="hover:text-amber-200 text-center"/></a>
+            </div>
             </h1>
             <section className=" grid grid-cols-1 md:grid-cols-3 justify-center gap-9 font-Texto">
               <div>
