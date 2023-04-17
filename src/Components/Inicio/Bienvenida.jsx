@@ -18,11 +18,12 @@ const Bienvenida = () => {
       {/*Aca se llaman los iconos*/}
       <div className="flex flex-row text-3xl text-green-800 gap-3 mt-16 ml-3 justify-start md:pl-16 md:ml-20 md:mt-80 md:gap-9">
         <a href="#" className="p-3 bg-white rounded-full hover:scale-110 border-2 border-green-800"><FaWhatsapp /></a>
-        <a href="#" className="p-3 bg-white rounded-full hover:scale-110 border-2 border-green-800" ><FaFacebook /></a>
+        <a href="#" className="p-3 bg-white rounded-full hover:scale-110 border-2 border-grz
+        een-800" ><FaFacebook /></a>
         <a href="#" className="p-3 bg-white rounded-full hover:scale-110 border-2 border-green-800"><FaInstagram /></a>
       </div>
       <br />
-      <div className="flex justify-center items-center flex-col text-center lg:mt-32">
+      <div className="flex justify-center items-center flex-col text-center lg:mt-40">
         <h3 className=" font-Titulo text-2xl lg:text-5xl pt-7  md:text-4xl text-green-900 font-semibold">Bienvenidos a Tamales Zuco</h3>
         <p className=" font-Texto text-xl font-bold">Conoce nuestro sitio web</p>
         <p className="font-Texto text-lg font-bold">conoce nuestro servicio y productos </p>
