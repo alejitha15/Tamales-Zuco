@@ -8,6 +8,7 @@ const Pedidos = () => {
     <div>
       <Navbar/>
       <Formulario />
+      <br/>
       <Footer/>
     </div>
   )

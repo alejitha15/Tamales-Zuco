@@ -44,7 +44,7 @@ const ShoppingCart = () => {
     const Total = () => {
         const total = calculateTotal(cart);
         return (
-            <div className='bg-verde text-white rounded-full w-20 h-20 flex items-center justify-center text-xs fixed top-20 right-42 z-50 text-center font-Texto font-light shadow-2xl shadow-violet border-2 border-green-700'>
+            <div className='bg-verde text-white rounded-full w-24 h-24 flex items-center justify-center text-xs fixed top-20 right-60 z-50 text-center font-Texto font-light shadow-2xl shadow-violet border-2 border-green-700'>
                 Total: ${total.toFixed(2)}
             </div>
         );
