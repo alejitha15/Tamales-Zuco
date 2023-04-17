@@ -7,7 +7,7 @@ const Pedidos = () => {
   return (
     <div>
       <Navbar/>
-      <Formulario/>
+      <Formulario />
       <br/>
       <Footer/>
     </div>
