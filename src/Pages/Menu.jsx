@@ -8,6 +8,7 @@ const Menu = () => {
     <div>
       <Navbar/>
       <Carta />
+      <br/>
       <Footer />
     </div>
   )
